@@ -1,0 +1,27 @@
++{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    border:1px dashed red;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.blue{
+    background-color: blue;
+    width: 180px;
+    height: 180px;
+    float: left;
+    padding: 1em;
+}
+.rosa{
+    background-color: rgb(202, 71, 219);
+    width: 180px;
+    height: 180px;
+    float: right;
+    padding: 1em;
+}
